@@ -92,7 +92,7 @@ local humanoid = character:WaitForChild("Humanoid")
 
 local dragging = false
 local minJumpPower = 50
-local maxJumpPower = 250
+local maxJumpPower = 350
 local currentJumpPower = minJumpPower -- Store current JumpPower
 
 -- Function to update JumpPower
