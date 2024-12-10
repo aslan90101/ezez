@@ -92,7 +92,7 @@ local humanoid = character:WaitForChild("Humanoid")
 
 local dragging = false
 local minWalkSpeed = 16
-local maxWalkSpeed = 150
+local maxWalkSpeed = 250
 local currentWalkSpeed = minWalkSpeed -- Store current walkspeed
 
 -- Function to update walkspeed
