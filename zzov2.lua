@@ -91,7 +91,7 @@ local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 
 local dragging = false
-local minJumpPower = 50
+local minJumpPower = 24
 local maxJumpPower = 350
 local currentJumpPower = minJumpPower -- Store current JumpPower
 
